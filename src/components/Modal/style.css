@@ -1,0 +1,48 @@
+.overlay{
+	position: fixed;
+	top:0;
+	left:0;
+	width:100vw;
+	height: 100vh;
+	background-color: rgba(0,0,0,0.4);
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+#modal-form{
+	background-color: #fff;
+	padding:10px;
+}
+
+#modal-form > *, .inputField{
+	display: block;
+	width:400px;
+	height: 40px;
+	margin-bottom: 15px;
+	font-size: 16px;
+	box-sizing: border-box;
+}
+
+#modal-form button{
+	background-color: #3ca5ed;
+	color:#fff;
+	border:none;
+	border-radius: 2px;
+	cursor: pointer;
+	margin:0;
+}
+
+#modal-form input{
+	padding-left: 10px;
+}
+
+#modal-form .label{
+	margin: 0;
+	height: auto;
+}
+
+input[readonly]{
+	background-color: #f1f1f1;
+    border: none;
+}
